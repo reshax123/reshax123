@@ -1,7 +1,7 @@
 // Regenerates assets/stats.svg from live GitHub data.
 //
 //   node scripts/stats.mjs                       # needs GITHUB_TOKEN, hits the GraphQL API
-//   STATS_JSON='{"repos":4,...}' node ...         # offline, renders from the given numbers
+//   STATS_JSON='{"repos":5,...}' node ...        # offline, renders from the given numbers
 //
 // Run by .github/workflows/stats.yml once a day. Delete both files to freeze the numbers.
 
