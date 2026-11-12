@@ -2,7 +2,7 @@
 
 <img src="assets/header.svg" alt="reshax123 — full stack dev, hardware tech, local AI gateways" width="100%">
 
-<img src="assets/stats.svg" alt="5 public repos · 7 contributions · 4 forks maintained" width="100%">
+<img src="assets/stats.svg" alt="5 public repos · 9 contributions · 4 forks maintained" width="100%">
 
 I write software and I take hardware apart. Mostly both in the same afternoon: full-stack apps with React, PHP, and Flutter on the front, and local gateways standing between AI clients and upstream providers on the back. The thread running through it is *local-first* — a service I run on my own machine, that I can read top to bottom, and that keeps working when someone else's endpoint does not.
 
