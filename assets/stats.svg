@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="4 public repos, 5 contributions, 4 forks maintained">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101410"/>
+      <stop offset="1" stop-color="#080A07"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="48" x2="0" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBF7EE"/>
+      <stop offset="0.52" stop-color="#E6DCC4"/>
+      <stop offset="1" stop-color="#E8A33D"/>
+    </linearGradient>
+    <clipPath id="clip0"><rect x="30" y="42" width="340" height="66"/></clipPath>
+    <clipPath id="clip1"><rect x="430" y="42" width="340" height="66"/></clipPath>
+    <clipPath id="clip2"><rect x="830" y="42" width="340" height="66"/></clipPath>
+    <style><![CDATA[
+      .num { font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, Roboto, sans-serif;
+             font-size: 58px; font-weight: 600; letter-spacing: -1.2px;
+             text-anchor: middle; fill: url(#metal); }
+      .lbl { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, monospace;
+             font-size: 15px; letter-spacing: 2.6px; text-anchor: middle; fill: #7A837B; }
+      .stamp { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, monospace;
+               font-size: 12px; letter-spacing: 1px; text-anchor: end; fill: #5A6156; }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="170" rx="14" fill="url(#panel)"/>
+  <rect width="1200" height="170" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
+  <path d="M400 40 V130 M800 40 V130" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1"/>
+
+  <g>
+    <g clip-path="url(#clip0)">
+      <g>
+      <text x="200" y="90" class="num">0</text>
+      <text x="200" y="166" class="num">1</text>
+      <text x="200" y="242" class="num">2</text>
+      <text x="200" y="318" class="num">3</text>
+      <text x="200" y="394" class="num">4</text>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; 0 -76; 0 -152; 0 -228; 0 -304" calcMode="discrete"
+          dur="0.50s" repeatCount="1" fill="freeze"/>
+      </g>
+    </g>
+    <text x="200" y="124" class="lbl">PUBLIC REPOS</text>
+    <path d="M116 146 H284" stroke="#E8A33D" stroke-opacity="0.16" stroke-width="1.4"/>
+    <path d="M116 146 H284" stroke="#F2E6CC" stroke-opacity="0.8" stroke-width="1.4"
+          stroke-dasharray="44 124">
+      <animate attributeName="stroke-dashoffset" values="168;0" dur="5s"
+        begin="0.0s" repeatCount="indefinite"/>
+    </path>
+
+    <g clip-path="url(#clip1)">
+      <g>
+      <text x="600" y="90" class="num">0</text>
+      <text x="600" y="166" class="num">2</text>
+      <text x="600" y="242" class="num">3</text>
+      <text x="600" y="318" class="num">4</text>
+      <text x="600" y="394" class="num">5</text>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; 0 -76; 0 -152; 0 -228; 0 -304" calcMode="discrete"
+          dur="0.50s" repeatCount="1" fill="freeze"/>
+      </g>
+    </g>
+    <text x="600" y="124" class="lbl">CONTRIBUTIONS</text>
+    <path d="M516 146 H684" stroke="#E8A33D" stroke-opacity="0.16" stroke-width="1.4"/>
+    <path d="M516 146 H684" stroke="#F2E6CC" stroke-opacity="0.8" stroke-width="1.4"
+          stroke-dasharray="44 124">
+      <animate attributeName="stroke-dashoffset" values="168;0" dur="5s"
+        begin="1.6s" repeatCount="indefinite"/>
+    </path>
+
+    <g clip-path="url(#clip2)">
+      <g>
+      <text x="1000" y="90" class="num">0</text>
+      <text x="1000" y="166" class="num">1</text>
+      <text x="1000" y="242" class="num">2</text>
+      <text x="1000" y="318" class="num">3</text>
+      <text x="1000" y="394" class="num">4</text>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; 0 -76; 0 -152; 0 -228; 0 -304" calcMode="discrete"
+          dur="0.50s" repeatCount="1" fill="freeze"/>
+      </g>
+    </g>
+    <text x="1000" y="124" class="lbl">FORKS MAINTAINED</text>
+    <path d="M916 146 H1084" stroke="#E8A33D" stroke-opacity="0.16" stroke-width="1.4"/>
+    <path d="M916 146 H1084" stroke="#F2E6CC" stroke-opacity="0.8" stroke-width="1.4"
+          stroke-dasharray="44 124">
+      <animate attributeName="stroke-dashoffset" values="168;0" dur="5s"
+        begin="3.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="1170" y="161" class="stamp">updated 2026-11-12</text>
+</svg>

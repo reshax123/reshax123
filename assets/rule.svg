@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" role="presentation">
+<defs>
+<pattern id="trace" width="60" height="34" patternUnits="userSpaceOnUse">
+<path d="M0 17 H16 L26 7 H44 L54 17 H60"
+fill="none" stroke="#E8A33D" stroke-width="1.8" stroke-linecap="square"/>
+<circle cx="16" cy="17" r="2.4" fill="none" stroke="#E8A33D" stroke-width="1.4"/>
+<circle cx="44" cy="17" r="2.4" fill="none" stroke="#E8A33D" stroke-width="1.4"/>
+</pattern>
+<linearGradient id="fade" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0"    stop-color="#fff" stop-opacity="0"/>
+<stop offset="0.16" stop-color="#fff" stop-opacity="1"/>
+<stop offset="0.84" stop-color="#fff" stop-opacity="1"/>
+<stop offset="1"    stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<mask id="m"><rect width="1200" height="34" fill="url(#fade)"/></mask>
+</defs>
+<g mask="url(#m)" opacity="0.55">
+<g>
+<rect x="-60" width="1320" height="34" fill="url(#trace)"/>
+<animateTransform attributeName="transform" type="translate"
+values="0 0; -60 0" dur="14s" repeatCount="indefinite"/>
+</g>
+</g>
+</svg>
