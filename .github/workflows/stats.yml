@@ -20,7 +20,7 @@ jobs:
         run: node scripts/stats.mjs
       - name: Commit if the numbers moved
         run: |
-          if git diff --quiet -- assets/stats.svg; then
+          if git diff --quiet -- assets/stats.svg README.md; then
             echo "no change"
             exit 0
           fi

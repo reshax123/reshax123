@@ -5,7 +5,7 @@
 //
 // Run by .github/workflows/stats.yml once a day. Delete both files to freeze the numbers.
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, readFile, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 
 const USER = process.env.STATS_USER ?? "reshax123";
@@ -180,4 +180,16 @@ ${cells}
 const stats = await collect();
 await mkdir(dirname(OUT), { recursive: true });
 await writeFile(OUT, render(stats), "utf8");
+
+// The README carries the same numbers in the stats image's alt text, which is
+// what a screen reader announces. Keep it in step so the two never disagree.
+const summary = `${stats.repos} public repos · ${stats.contributions} contributions · ${stats.forks} forks maintained`;
+const readme = "README.md";
+const source = await readFile(readme, "utf8");
+const synced = source.replace(
+  /(<img src="assets\/stats\.svg" alt=")[^"]*(")/,
+  `$1${summary}$2`,
+);
+
+if (synced !== source) await writeFile(readme, synced, "utf8");
 console.log(`wrote ${OUT}`, stats);
