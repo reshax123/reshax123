@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="4 public repos, 5 contributions, 4 forks maintained">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="5 public repos, 7 contributions, 4 forks maintained">
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#101410"/>
@@ -31,10 +31,10 @@
     <g clip-path="url(#clip0)">
       <g>
       <text x="200" y="90" class="num">0</text>
-      <text x="200" y="166" class="num">1</text>
-      <text x="200" y="242" class="num">2</text>
-      <text x="200" y="318" class="num">3</text>
-      <text x="200" y="394" class="num">4</text>
+      <text x="200" y="166" class="num">2</text>
+      <text x="200" y="242" class="num">3</text>
+      <text x="200" y="318" class="num">4</text>
+      <text x="200" y="394" class="num">5</text>
         <animateTransform attributeName="transform" type="translate"
           values="0 0; 0 -76; 0 -152; 0 -228; 0 -304" calcMode="discrete"
           dur="0.50s" repeatCount="1" fill="freeze"/>
@@ -52,12 +52,13 @@
       <g>
       <text x="600" y="90" class="num">0</text>
       <text x="600" y="166" class="num">2</text>
-      <text x="600" y="242" class="num">3</text>
-      <text x="600" y="318" class="num">4</text>
-      <text x="600" y="394" class="num">5</text>
+      <text x="600" y="242" class="num">4</text>
+      <text x="600" y="318" class="num">5</text>
+      <text x="600" y="394" class="num">6</text>
+      <text x="600" y="470" class="num">7</text>
         <animateTransform attributeName="transform" type="translate"
-          values="0 0; 0 -76; 0 -152; 0 -228; 0 -304" calcMode="discrete"
-          dur="0.50s" repeatCount="1" fill="freeze"/>
+          values="0 0; 0 -76; 0 -152; 0 -228; 0 -304; 0 -380" calcMode="discrete"
+          dur="0.60s" repeatCount="1" fill="freeze"/>
       </g>
     </g>
     <text x="600" y="124" class="lbl">CONTRIBUTIONS</text>
